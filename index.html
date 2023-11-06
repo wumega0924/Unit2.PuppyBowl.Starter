@@ -17,12 +17,39 @@
 
 <body>
 
+  <h1>Welcome to my Puppy Bowl</h1>
+
+
   <!-- form to add new players -->
   <div id="new-player-form"></div>
 
+
+  <form id="add-player-form">
+    <h2>Fill out form to enter</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="name">
+  
+    <label for="breed">Breed:</label>
+    <input type="text" id="breed" name="breed" required placeholder="breed of your puppy">
+  
+    <label for="status">Status:</label>
+    <select id="status" name="status" required>
+      <option value="field">Field</option>
+      <option value="bench">Bench</option>
+    </select>
+  
+    <label for="imageUrl">Image URL:</label>
+    <input type="text" id="imageUrl" name="imageUrl" required placeholder="photos of your puppy">
+  
+    <button type="submit">Add Player</button>
+  </form>
   <!-- container for all players -->
   <div id="all-players-container"></div>
 
 </body>
 
+
 </html>
+
+</html>
+
